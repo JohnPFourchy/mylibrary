@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Library</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/script.js" defer></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header-wrapper">
+            <h1>My Library</h1>
+            <button id="add-book" type="button">Add Book</button>
+        </div>
+
+        <!-- Add Book Form -->
+        <div class="form-container">
+            <div class="add-book-form">
+                <form>
+                    <div class="form-row">
+                        <label for="book-title">Book Title</label>
+                        <input type="text" id="book-title">
+                    </div>
+                    <div class="form-row">
+                        <label for="author-name">Author</label>
+                        <input type="text" id="author-name">
+                    </div>
+                    <div class="form-row">
+                        <label for="page-num">Number of Pages</label>
+                        <input type="tel" id="page-num">
+                    </div>
+                    <div class="form-row">
+                        <button class="green" id="submit-btn" type="submit">Add To Library</button>
+                        <button class="red" id="close-btn" type="button">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Container to hold added books -->
+        <div class="library-container"></div>
+    </body>
+</html>
